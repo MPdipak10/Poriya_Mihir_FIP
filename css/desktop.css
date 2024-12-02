@@ -91,7 +91,7 @@
  
  /* Book Now Button Styling */
  #book-now-hero {
-    background-color: #007BFF; /* Button background color */
+    background-color: greenyellow; /* Button background color */
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -102,14 +102,14 @@
  }
  
  #book-now-hero:hover {
-    background-color: #0056b3; /* Hover effect */
+    background-color: greenyellow; /* Hover effect */
  }
  
  
  /* 3. ---Main Hero Image--- */
  
  #hero {
-    no-repeat center center; /* Centers the image */
+     background-image: url(../image/hero-main.jpg) no-repeat center center; /* Centers the image */
     background-size: cover; /* Ensures the image covers the entire area */
     width: 100%; /* Makes the hero section span the full width */
     height: 400px; /* Adjust height as needed */
@@ -136,7 +136,7 @@
  }
  
  .book-now:hover {
-   background-color: #0056b3;
+   background-color: greenyellow;
    transform: scale(1.1); /* Slight bounce */
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
  }
@@ -156,7 +156,7 @@
  .hero-img-h2, .hero-img-h3 {
     background: #fff;
     padding: 10px 15px;
-    font-size: 35px;
+    font-size: 25px;
  }
  
  .hero-img-h2 span,  .hero-img-h3 span {
@@ -171,7 +171,7 @@
  }
  
  #hero-summary p {
-    font-size: 40px;
+    font-size: 20px;
     line-height: 22px;
     margin-bottom: 40px;
  }
